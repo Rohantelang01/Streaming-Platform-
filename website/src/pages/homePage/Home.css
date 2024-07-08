@@ -1,0 +1,58 @@
+/* Home.css */
+
+body{margin: 0px;
+    padding: 0px;}
+    
+    .homeBody{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    
+    }
+    /* .topCtr{
+      
+      margin: 0px;
+      width: 99vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .navnar{
+    background-color: azure;
+    overflow: hidden;
+    width: 99vw;
+    height: auto;
+    margin: 0px 0px;
+    position: fixed;
+    margin-bottom: 40px;
+    } */
+    .heroctr{
+    width: 99vw;
+    background-color: rgb(13, 7, 7);
+    height: auto;
+    overflow: hidden;
+    margin: 0px;
+    margin-top: 40px;
+    }
+    .bodyCtr{
+      display: flex;
+      width: 99vw;
+      height: auto;
+      background-color: black;
+      margin: 0px;
+    }
+    .leftCtr{
+      width: 70vw;
+      height: auto;
+      background-color: yellow;
+      margin: 0px;
+    }
+    .rightCtr{
+      width: 30vw;
+      height: auto;
+      background-color: rgb(87, 87, 72);
+      margin: 0px;
+    }
+    

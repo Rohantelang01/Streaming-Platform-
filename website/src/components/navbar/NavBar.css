@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+body{
+    color: white;
+   
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(44, 29, 29);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+}
+.leftNavbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-self: left;
+    width: 60vw;
+}
+ul{
+    display: flex;
+    color: white;
+    overflow: hidden;
+    width: 90Wh;
+}
+ul li a{
+    
+    text-decoration: none;
+    margin: 0vw 1vw;
+    padding: 5px 5px;
+    border-radius: 4px;
+    color: rgb(225, 219, 211);
+}
+ul li a:hover{
+    color: #ffffff;
+    background-color: rgb(24, 24, 54);
+}
+li{
+    list-style: none;
+
+}
+.menuIcunPath:hover{
+    margin-left:10px ;
+    fill: white;
+    cursor: pointer;
+
+}
+   .menuIcunPath{
+   background-color: blueviolet;
+   fill: aqua;
+}
+.closeIcunPath{
+    stroke: aqua
+}
+.closeIcunPath:hover{
+    stroke: white;
+}
+.searchIcun{
+    stroke: aqua;
+    padding: 3px;
+    cursor: pointer;
+}
+.searchIcunCtr:hover{
+    background-color: rgb(10, 44, 56);
+   
+}
+.menuIcunCtr,.searchIcunCtr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.menuIcunCtr:hover{
+    background-color: rgb(10, 44, 56);
+}
+.rightNavbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+    width: 40vw;
+}
+.inputBar{
+    width: 60%;
+    height: 20px;
+    border-radius: 7px;
+    padding: 2px 20px;
+    margin: 0px 1px;
+}

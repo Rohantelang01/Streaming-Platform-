@@ -1,0 +1,64 @@
+.Navbar {
+    background-color: darkorange;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+  }
+  
+  .sortTypes {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  
+  .sortTypes ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+  }
+  
+  .sortTypes ul li {
+    cursor: pointer;
+    margin: 4px 0px;
+    padding: 3px;
+  }
+  
+  .sortTypes ul li:hover {
+    background-color: rgba(137, 43, 226, 0.523);
+    border-radius: 5px;
+  }
+  
+  .SortIcun {
+    color: aqua;
+    background-color: brown;
+  }
+  
+  .SortIcun:hover {
+    color: black;
+  }
+  
+  .SortIcunCtr {
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+  }
+  
+  .SortIcunCtr:hover {
+    background-color: rgb(160, 125, 193);
+    border-radius: 5px;
+  }
+  
+  .SortName {
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
